@@ -1,0 +1,22 @@
+name: CommandsMoreAdwanzt
+version: '${project.version}'
+main: me.marc3308.commandsmoreadwanzt.CommandsMoreAdwanzt
+api-version: 1.18
+depend: [zerotrust]
+authors: [ Marc3308 ]
+description: the same as commands but with order
+commands:
+  g:
+    description: schnelle gamemode auswahl
+    usage: /<command> <int>
+    aliases:
+      - gm
+  gui:
+    description: open gui to make thinks easy
+    usage: /<command>
+  custemid:
+    description: adds a custem id
+    usage: /<command>
+  custlore:
+    description: adds a custem lore
+    usage: /<command>
