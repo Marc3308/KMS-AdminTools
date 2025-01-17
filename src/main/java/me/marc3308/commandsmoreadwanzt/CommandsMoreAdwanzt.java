@@ -25,6 +25,7 @@ public final class CommandsMoreAdwanzt extends JavaPlugin implements Listener {
         getCommand("custlore").setExecutor(new custemlore());
         getCommand("custemid").setExecutor(new CustemModelDataCommand());
         getCommand("g").setExecutor(new GamemodeComands());
+        getCommand("hat").setExecutor(new hatcommand());
 
         getCommand("gui").setExecutor(new GUIcommand());
         Bukkit.getPluginManager().registerEvents(new GUI(),this);
@@ -37,7 +38,6 @@ public final class CommandsMoreAdwanzt extends JavaPlugin implements Listener {
         if(con.get("gui")==null){
 
             con.set("gui"+".1","Marc3308");
-            con.set("texpack","https://download.mc-packs.net/pack/3d80aef1ccebaa8b89a55273c2780f39a1809e2b.zip");
 
         }
 

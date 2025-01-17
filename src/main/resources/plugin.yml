@@ -20,3 +20,6 @@ commands:
   custlore:
     description: adds a custem lore
     usage: /<command>
+  hat:
+    description: puts the item in your head
+    usage: /<command>
